@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c1768de9-ad54-4a4d-babe-87f02bd4f0d3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>readAccounts.py</StartupFile>
+    <StartupFile>generateUsersPasswords.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="createAccounts.py" />
-    <Compile Include="readAccounts.py">
+    <Compile Include="generateUsersPasswords.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
